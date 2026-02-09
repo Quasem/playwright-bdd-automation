@@ -1,0 +1,17 @@
+{
+  "name": "playwright-bdd-project",
+  "version": "1.0.0",
+  "description": "Playwright BDD automation project",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "npx bddgen && npx playwright test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "latest",
+    "playwright-bdd": "latest"
+  }
+}
